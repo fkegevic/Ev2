@@ -48,7 +48,7 @@
       }
       ]
         $.each(curso, function(i, integrante) {
-            $("#cuestiones").append("<h2>" + integrante.nombre + "</h2>");
+            $("#cuestiones").append("<h2 class= 'mt-5 bg-rosado text-white'>" + integrante.nombre + "</h2>");
           $.each(integrante.trabajos, function(i, trabajo) {
               $("#cuestiones").append("<h5>" + trabajo.titulo + "</h5>").append("<img src='" + trabajo.imagen + "'>");
           });
